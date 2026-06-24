@@ -2313,6 +2313,310 @@ const slangDictionary = {
         reverse: ["understood", "say no more", "I got it", "I'm in"]
     },
 
+    "fyp": {
+        definition: "For You Page — TikTok's main feed, algorithmically curated for each user. 'FYP' in a caption is creators hoping TikTok shows their video to more people.",
+        emoji: "📱",
+        example: "This needs to be on everyone's FYP immediately",
+        tags: ["tiktok", "internet", "social media"],
+        reverse: ["for you page", "TikTok feed", "TikTok algorithm"]
+    },
+    "sneaky link": {
+        definition: "Someone you're secretly meeting up with, usually romantically or sexually, without publicly acknowledging the relationship.",
+        emoji: "🤫",
+        example: "She's not my girlfriend, just my sneaky link",
+        tags: ["relationship", "internet", "social media"],
+        reverse: ["secret hookup", "someone you're secretly seeing", "hidden situationship"]
+    },
+    "villain era": {
+        definition: "A phase where someone embraces a more selfish, unbothered, or ruthless mindset — done with being nice at the expense of yourself.",
+        emoji: "🦹",
+        example: "Blocked him and deleted the texts. I'm in my villain era",
+        tags: ["trending", "tiktok", "mindset"],
+        reverse: ["done being nice", "selfish phase", "unbothered era", "putting yourself first"]
+    },
+    "soft life": {
+        definition: "A lifestyle centered on comfort, luxury, ease, and peace — deliberately avoiding stress, hustle culture, and hardship.",
+        emoji: "🛁",
+        example: "No 5am wake-ups, no toxic jobs. I chose the soft life",
+        tags: ["tiktok", "lifestyle", "trending"],
+        reverse: ["comfortable lifestyle", "luxury living", "anti-hustle", "stress-free life"]
+    },
+    "fit check": {
+        definition: "Showing off your outfit, usually on social media, for approval or feedback. Sometimes phrased as a question.",
+        emoji: "👗",
+        example: "Fit check — does this work for the concert?",
+        tags: ["tiktok", "instagram", "fashion", "social media"],
+        reverse: ["outfit check", "how does my outfit look", "rate my outfit"]
+    },
+    "grwm": {
+        definition: "Get Ready With Me — a content format where someone films themselves getting ready (doing makeup, picking an outfit, etc.) while talking to the camera.",
+        emoji: "💄",
+        example: "GRWM for a first date ft. my anxiety",
+        tags: ["tiktok", "youtube", "content", "social media"],
+        reverse: ["get ready with me", "getting ready video", "makeup routine video"]
+    },
+    "dupe": {
+        definition: "A cheaper product that looks or functions like a more expensive one. Finding dupes is a huge TikTok trend.",
+        emoji: "🛍️",
+        example: "This $12 dupe for the Stanley cup is literally identical",
+        tags: ["tiktok", "shopping", "trending"],
+        reverse: ["cheap alternative", "knockoff", "cheaper version", "budget find"]
+    },
+    "hard launch": {
+        definition: "Publicly and officially introducing your romantic partner on social media — the opposite of a soft launch. No ambiguity, this is them.",
+        emoji: "💑",
+        example: "She hard launched him on Instagram with a couples photo and everything",
+        tags: ["relationship", "instagram", "social media"],
+        reverse: ["officially announcing relationship", "going public with partner", "posting your partner"]
+    },
+    "it girl": {
+        definition: "A girl or woman who is effortlessly cool, stylish, and admired — not trying too hard, just naturally magnetic. The person everyone wants to be.",
+        emoji: "💅",
+        example: "She walks into every room like she owns it. Total it girl",
+        tags: ["tiktok", "instagram", "compliment", "trending"],
+        reverse: ["effortlessly cool girl", "popular stylish girl", "the girl everyone admires"]
+    },
+    "mogging": {
+        definition: "Dominating or overshadowing someone else in attractiveness, presence, or status — making them look worse by comparison just by being near them.",
+        emoji: "👑",
+        example: "He walked in and started mogging every other guy in the room",
+        tags: ["tiktok", "internet", "looks"],
+        reverse: ["outclassing someone", "making others look bad", "dominating in looks"]
+    },
+    "quiet quitting": {
+        definition: "Doing exactly what your job requires and nothing more — no extra effort, no going above and beyond. A rejection of hustle culture at work.",
+        emoji: "🖥️",
+        example: "I'm quiet quitting. 9-to-5, not a minute over",
+        tags: ["tiktok", "work", "trending"],
+        reverse: ["doing bare minimum at work", "not going above and beyond", "anti-hustle at work"]
+    },
+    "sfs": {
+        definition: "Shoutout for shoutout — when two accounts agree to promote each other to grow their followings. Common on Instagram.",
+        emoji: "📣",
+        example: "Anyone wanna do an sfs? Drop your page",
+        tags: ["instagram", "social media", "creator"],
+        reverse: ["shoutout for shoutout", "mutual promo", "cross-promotion"]
+    },
+    "mukbang": {
+        definition: "A content format where someone eats large amounts of food on camera while talking to viewers. Originally from South Korea, huge on YouTube and TikTok.",
+        emoji: "🍜",
+        example: "I watched a mukbang at midnight and now I'm starving",
+        tags: ["tiktok", "youtube", "content", "food"],
+        reverse: ["eating show", "eating on camera", "food video"]
+    },
+    "perceived": {
+        definition: "Being seen, noticed, or observed by others — often used humorously about social anxiety or not wanting attention.",
+        emoji: "👁️",
+        example: "I can't go outside today, I don't want to be perceived",
+        tags: ["tiktok", "meme", "anxiety", "internet"],
+        reverse: ["being seen", "being noticed", "don't look at me", "social anxiety"]
+    },
+    "szn": {
+        definition: "Season. Used to describe a period dominated by a certain vibe, trend, or activity.",
+        emoji: "🍂",
+        example: "It's cuffing szn, everyone's finding someone",
+        tags: ["tiktok", "internet", "common"],
+        reverse: ["season", "time of year", "phase"]
+    },
+    "pop off": {
+        definition: "To go off, perform brilliantly, or do something impressive — often used as encouragement. Can also mean someone suddenly expressing strong feelings.",
+        emoji: "🎉",
+        example: "She really popped off on that verse",
+        tags: ["tiktok", "compliment", "internet", "common"],
+        reverse: ["go off", "perform great", "do your thing", "go ahead and shine"]
+    },
+    "understood the brief": {
+        definition: "Perfectly executed exactly what was needed — nailed the concept, the vibe, or the assignment with precision.",
+        emoji: "📋",
+        example: "The costume designer understood the brief. Every single look was perfect",
+        tags: ["tiktok", "compliment", "trending"],
+        reverse: ["nailed it", "got exactly what was needed", "executed perfectly"]
+    },
+    "glow down": {
+        definition: "The opposite of a glow up — when someone looks or acts worse than they used to.",
+        emoji: "📉",
+        example: "What happened to him? That's a serious glow down",
+        tags: ["tiktok", "instagram", "appearance"],
+        reverse: ["looking worse", "downgrade in appearance", "the opposite of a glow up"]
+    },
+    "that's so real": {
+        definition: "An expression of genuine validation — used to say that someone's feeling, experience, or statement is completely understandable and relatable.",
+        emoji: "🫂",
+        example: "You cried watching a dog food commercial? That's so real",
+        tags: ["tiktok", "validation", "internet", "common"],
+        reverse: ["I understand", "that's valid", "completely relatable", "I feel that"]
+    },
+    "pick me behavior": {
+        definition: "Actions done specifically to get attention, approval, or validation from others — especially seeking approval from the opposite gender by putting down your own group.",
+        emoji: "🙋",
+        example: "Saying you're not like other girls is peak pick me behavior",
+        tags: ["tiktok", "criticism", "internet"],
+        reverse: ["seeking approval", "desperate for attention", "trying too hard to be chosen"]
+    },
+
+    "aura farming": {
+        definition: "Deliberately doing things — working out, being mysterious, staying off socials, dressing well — to build up your personal energy and presence. Less about showing off, more about quietly leveling up.",
+        emoji: "🌀",
+        example: "Phone away, gym done, reading a book. Peak aura farming",
+        tags: ["tiktok", "trending", "mindset"],
+        reverse: ["building your aura", "leveling up silently", "working on your energy"]
+    },
+    "canon event": {
+        definition: "Something that was meant to happen — a defining moment in your story that you couldn't have skipped even if you wanted to. From Spider-Man: Across the Spider-Verse.",
+        emoji: "🕷️",
+        example: "Getting your heart broken at 19 is a canon event, everyone goes through it",
+        tags: ["tiktok", "trending", "internet", "meme"],
+        reverse: ["meant to happen", "defining life moment", "unavoidable experience"]
+    },
+    "chopped": {
+        definition: "Done, finished, eliminated — either you failed, you're out, or something got cut off. Also used to mean something looks terrible.",
+        emoji: "🪓",
+        example: "He missed the deadline twice, he's chopped",
+        tags: ["internet", "tiktok", "criticism"],
+        reverse: ["done", "eliminated", "out", "failed", "finished"]
+    },
+    "404 coded": {
+        definition: "Completely lost, confused, or not processing what's happening — like a 404 error page. The brain has left the chat.",
+        emoji: "🖥️",
+        example: "She asked me one question and I went fully 404 coded",
+        tags: ["internet", "tiktok", "meme", "funny"],
+        reverse: ["totally confused", "brain not working", "lost", "not computing"]
+    },
+    "zesty": {
+        definition: "Having flamboyant, effeminate, or queer energy — used playfully to describe someone giving off gay vibes, or something with extra flair and drama.",
+        emoji: "🍋",
+        example: "The way he said that was a little zesty ngl",
+        tags: ["tiktok", "internet", "lgbtq", "trending"],
+        reverse: ["flamboyant", "giving gay vibes", "extra dramatic flair"]
+    },
+    "lock in": {
+        definition: "To fully focus and commit — zone in, cut out distractions, and get serious about what you need to do.",
+        emoji: "🔒",
+        example: "No more scrolling, I need to lock in for this exam",
+        tags: ["tiktok", "trending", "mindset", "common"],
+        reverse: ["focus up", "get serious", "commit fully", "zone in", "grind mode"]
+    },
+    "unc": {
+        definition: "Short for uncle — used to describe an older man who's out of touch, cringe, or trying too hard to be relevant. Not a compliment.",
+        emoji: "👴",
+        example: "Why is this unc in the comments trying to use our slang",
+        tags: ["tiktok", "internet", "criticism"],
+        reverse: ["out of touch older man", "cringe older guy", "try-hard boomer"]
+    },
+    "clock it": {
+        definition: "To immediately notice or spot something — usually something others missed, or calling out someone's behavior or identity.",
+        emoji: "🕐",
+        example: "I clocked his fake designer bag the second he walked in",
+        tags: ["tiktok", "internet", "trending"],
+        reverse: ["notice it", "spot it", "call it out", "see right through it"]
+    },
+    "rich in life": {
+        definition: "Having abundance in what actually matters — good friends, experiences, peace of mind, joy — even without a lot of money.",
+        emoji: "🌿",
+        example: "No savings but I laughed every day this week. I'm rich in life",
+        tags: ["tiktok", "trending", "mindset", "lifestyle"],
+        reverse: ["emotionally wealthy", "rich in experiences", "fulfilled without money"]
+    },
+    "out of pocket": {
+        definition: "Said or did something wild, inappropriate, or way too far — crossing a line that most people wouldn't cross.",
+        emoji: "😬",
+        example: "He said that in front of everyone? That was so out of pocket",
+        tags: ["common", "tiktok", "internet", "criticism"],
+        reverse: ["too far", "inappropriate", "crossing the line", "out of line", "wild"]
+    },
+    "silent slay": {
+        definition: "Being excellent without announcing it — no loud flexing, just quietly doing the most and letting results speak.",
+        emoji: "🤫",
+        example: "She didn't post once all month and still got the job. Silent slay",
+        tags: ["tiktok", "trending", "compliment"],
+        reverse: ["quietly excelling", "slaying without bragging", "low-key winning"]
+    },
+    "make it make sense": {
+        definition: "Expressing frustration or disbelief that something is completely illogical — demanding an explanation for something that doesn't add up.",
+        emoji: "🤯",
+        example: "You texted me at 3am and then left me on read? Make it make sense",
+        tags: ["tiktok", "internet", "common", "trending"],
+        reverse: ["explain this", "this makes no sense", "how does that logic work", "I'm confused"]
+    },
+    "flop": {
+        definition: "Something that failed, underperformed, or didn't land — the opposite of a hit. Can describe a video, a product, a person, or a moment.",
+        emoji: "📉",
+        example: "The album flopped, nobody was streaming it after week one",
+        tags: ["tiktok", "internet", "common", "criticism"],
+        reverse: ["failed", "flopped", "underperformed", "bombed", "didn't work"]
+    },
+
+    "opp": {
+        definition: "Opponent — someone who's against you, your enemy, or a rival. Can be serious or used playfully.",
+        emoji: "😤",
+        example: "Don't trust him, he's an opp",
+        tags: ["common", "tiktok", "internet"],
+        reverse: ["enemy", "opponent", "rival", "someone against you"]
+    },
+    "aired": {
+        definition: "Being completely ignored — someone saw your message and didn't respond, or blanked you in person.",
+        emoji: "💨",
+        example: "I waved at her and she aired me in front of everyone",
+        tags: ["tiktok", "internet", "social media"],
+        reverse: ["ignored", "left on read", "blanked", "ghosted in the moment"]
+    },
+    "bummy": {
+        definition: "Looking rough, disheveled, or unkempt — showing up without effort put into your appearance.",
+        emoji: "😮‍💨",
+        example: "I can't go out, I'm looking too bummy right now",
+        tags: ["common", "internet", "appearance"],
+        reverse: ["looking rough", "unkempt", "no effort in appearance", "not dressed up"]
+    },
+    "ragebait": {
+        definition: "Content deliberately designed to make people angry so they engage — the outrage is the point, and you fell for it.",
+        emoji: "😡",
+        example: "That tweet was pure ragebait, don't even respond to it",
+        tags: ["internet", "tiktok", "social media", "criticism"],
+        reverse: ["made to make you angry", "designed to provoke", "outrage bait", "engagement farming"]
+    },
+    "AI slop": {
+        definition: "Low-effort, mass-produced AI-generated content — images, videos, or text that's obviously made by AI with no care or creativity put in.",
+        emoji: "🤖",
+        example: "Their whole page is AI slop, they haven't made anything real",
+        tags: ["internet", "tiktok", "ai", "criticism", "trending"],
+        reverse: ["low quality AI content", "lazy AI generated stuff", "soulless AI output"]
+    },
+    "aura maxxing": {
+        definition: "Taking aura farming to the extreme — systematically optimizing every aspect of your presence, energy, and image to be as magnetic as possible.",
+        emoji: "⚡",
+        example: "Cold showers, journaling, no phone in the morning. Full aura maxxing",
+        tags: ["tiktok", "trending", "mindset"],
+        reverse: ["maximizing your aura", "full glow up mode", "extreme self-improvement for presence"]
+    },
+    "beta": {
+        definition: "The opposite of a sigma or alpha — someone who is passive, easily walked over, or lacks confidence and backbone. Usually used as an insult.",
+        emoji: "😓",
+        example: "He let them talk to him like that? That's beta behavior",
+        tags: ["internet", "tiktok", "criticism"],
+        reverse: ["passive", "submissive", "lacking backbone", "pushover"]
+    },
+    "I'm just a girl": {
+        definition: "A phrase used to claim helplessness or play dumb to avoid responsibility — often ironic or comedic. From a viral TikTok trend.",
+        emoji: "🎀",
+        example: "I don't understand taxes, I'm just a girl",
+        tags: ["tiktok", "trending", "meme", "funny"],
+        reverse: ["I can't be held responsible", "playing dumb", "I don't know anything"]
+    },
+    "last night was a movie": {
+        definition: "Last night was so wild, chaotic, or unforgettable that it felt cinematic — like something you'd watch, not live through.",
+        emoji: "🎬",
+        example: "We ended up in a stranger's apartment eating pizza at 4am. Last night was a movie",
+        tags: ["tiktok", "internet", "trending"],
+        reverse: ["last night was crazy", "last night was unforgettable", "that was cinematic"]
+    },
+    "it do be like that sometimes": {
+        definition: "Resigned acceptance that life is sometimes unfair, disappointing, or just weird — and there's nothing you can do about it.",
+        emoji: "🤷",
+        example: "He never texted back. It do be like that sometimes",
+        tags: ["internet", "meme", "common", "funny"],
+        reverse: ["that's just how it is", "nothing you can do", "sometimes life just be that way"]
+    },
+
 };
 
 // Trending slang terms for the chips
