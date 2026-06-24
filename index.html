@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Translate modern slang and internet lingo to plain English. Like Google Translate meets Urban Dictionary.">
+    <title>Slanglate — Slang to English Translator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="bg-gradient"></div>
+        <div class="floating-emojis" id="floatingEmojis"></div>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-text">Slang<span class="logo-accent">late</span></span>
+            </div>
+            <p class="tagline">// slang ↔ english translator</p>
+        </header>
+
+        <!-- Main Translator -->
+        <main class="translator-container">
+            <!-- Language Selector -->
+            <div class="language-bar">
+                <div class="language-option active" id="slangToEnglish">
+                    <span>Slang</span>
+                </div>
+                <button class="swap-btn" id="swapBtn" aria-label="Swap languages">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 16l-4-4m0 0l4-4m-4 4h18M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                </button>
+                <div class="language-option" id="englishToSlang">
+                    <span>English</span>
+                </div>
+            </div>
+
+            <!-- Translation Boxes -->
+            <div class="translation-wrapper">
+                <!-- Input Box -->
+                <div class="translation-box input-box">
+                    <div class="box-header">
+                        <span class="box-label" id="inputLabel">Input</span>
+                        <div class="header-actions">
+                            <button class="icon-btn" id="randomBtn" title="Random Slang">?</button>
+                            <button class="clear-btn" id="clearBtn" aria-label="Clear text">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <path d="M18 6L6 18M6 6l12 12"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <textarea id="inputText"
+                        placeholder="no cap that's lowkey bussin fr fr..."
+                        aria-label="Input text"></textarea>
+                    <div class="box-footer">
+                        <span class="char-count"><span id="charCount">0</span>/500</span>
+                        <button class="voice-btn" id="voiceBtn" aria-label="Voice input">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                                <line x1="12" y1="19" x2="12" y2="23"/>
+                                <line x1="8" y1="23" x2="16" y2="23"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Output Box -->
+                <div class="translation-box output-box">
+                    <div class="box-header">
+                        <span class="box-label" id="outputLabel">Translation</span>
+                        <button class="copy-btn" id="copyBtn" aria-label="Copy translation">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                            <span class="copy-text">Copy</span>
+                        </button>
+                    </div>
+                    <div class="output-content" id="outputText">
+                        <span class="placeholder-text">translation appears here_</span>
+                    </div>
+                    <div class="box-footer">
+                        <button class="speak-btn" id="speakBtn" aria-label="Speak translation">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Translate Button -->
+            <button class="translate-btn" id="translateBtn">
+                <span class="btn-text">Translate</span>
+                <span class="btn-icon">→</span>
+            </button>
+        </main>
+
+        <!-- Marquee Ticker -->
+        <div class="marquee-wrap" aria-hidden="true">
+            <div class="marquee-track">
+                <span>rizz ✦ no cap ✦ bussin ✦ slay ✦ gyat ✦ situationship ✦ delulu ✦ understood the assignment ✦ it's giving ✦ brat ✦ lowkey ✦ era ✦ based ✦ rent free ✦ skibidi ✦ touch grass ✦ ratio ✦ W rizz ✦ do it for the plot ✦ goblinmode ✦</span>
+                <span>rizz ✦ no cap ✦ bussin ✦ slay ✦ gyat ✦ situationship ✦ delulu ✦ understood the assignment ✦ it's giving ✦ brat ✦ lowkey ✦ era ✦ based ✦ rent free ✦ skibidi ✦ touch grass ✦ ratio ✦ W rizz ✦ do it for the plot ✦ goblinmode ✦</span>
+            </div>
+        </div>
+
+        <!-- Trending Slang Section -->
+        <section class="trending-section">
+            <h2 class="section-title">Trending</h2>
+            <div class="trending-chips" id="trendingChips"></div>
+        </section>
+
+        <!-- Slang Dictionary Section -->
+        <section class="dictionary-section">
+            <h2 class="section-title">
+                Dictionary
+                <span class="term-count" id="termCount">(loading...)</span>
+            </h2>
+
+            <div class="category-filters" id="categoryFilters">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="trending">Trending</button>
+                <button class="filter-btn" data-category="compliment">Compliments</button>
+                <button class="filter-btn" data-category="criticism">Criticism</button>
+                <button class="filter-btn" data-category="internet">Internet</button>
+                <button class="filter-btn" data-category="common">Common</button>
+            </div>
+
+            <div class="search-bar">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="M21 21l-4.35-4.35"/>
+                </svg>
+                <input type="text" id="searchInput" placeholder="Search slang...">
+            </div>
+
+            <div class="dictionary-grid" id="dictionaryGrid"></div>
+            <button class="load-more-btn" id="loadMoreBtn">Load more</button>
+        </section>
+
+        <!-- Translation History Section -->
+        <section class="history-section" id="historySection" style="display: none;">
+            <h2 class="section-title">
+                Recent
+                <button class="clear-history-btn" id="clearHistoryBtn">Clear all</button>
+            </h2>
+            <div class="history-list" id="historyList"></div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>made for the terminally online</p>
+            <p class="disclaimer">no cap, just vibes</p>
+        </footer>
+    </div>
+
+    <script src="slangData.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
