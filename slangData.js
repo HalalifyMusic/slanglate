@@ -2716,6 +2716,119 @@ const slangDictionary = {
         reverse: ["respect for that", "that was genuine", "good move", "props for that"]
     },
 
+    "babygirl": {
+        definition: "A term of endearment — often used ironically for powerful men with a soft side, or sincerely for someone you adore.",
+        emoji: "🎀",
+        example: "Pedro Pascal is babygirl and that's not up for debate",
+        tags: ["tiktok", "instagram", "trending", "compliment"],
+        reverse: ["term of endearment", "soft king", "someone you adore"]
+    },
+    "passenger princess": {
+        definition: "A girl who sits in the passenger seat and does absolutely nothing — no navigation, no aux, just vibes. Used affectionately as a personality trait.",
+        emoji: "👸",
+        example: "I am a passenger princess, I don't pump gas or give directions",
+        tags: ["tiktok", "trending", "funny", "lifestyle"],
+        reverse: ["girl who does nothing in the car", "just sitting pretty", "no effort passenger"]
+    },
+    "pushing P": {
+        definition: "Keeping it real and staying solid — P stands for player, meaning doing things with integrity and in the right way.",
+        emoji: "🅿️",
+        example: "Paid his friend's rent without telling anyone. That's pushing P",
+        tags: ["tiktok", "trending", "compliment", "internet"],
+        reverse: ["keeping it real", "staying solid", "doing things right"]
+    },
+    "bars": {
+        definition: "An impressive line or statement — something so well-said it deserves recognition. Originally from rap lyrics, now used for any quotable moment.",
+        emoji: "🎤",
+        example: "She said 'heal before you love someone else' — bars",
+        tags: ["common", "compliment", "internet", "music"],
+        reverse: ["fire line", "impressive statement", "well-said", "quotable"]
+    },
+    "algospeak": {
+        definition: "Coded words used on social media to avoid triggering content moderation — like saying 'unalive' instead of suicide so your post doesn't get removed.",
+        emoji: "🔡",
+        example: "She had to use algospeak so TikTok wouldn't take her video down",
+        tags: ["internet", "tiktok", "social media", "trending"],
+        reverse: ["coded language to avoid bans", "platform-safe words", "content moderation workaround"]
+    },
+    "love bombing": {
+        definition: "Overwhelming someone with excessive affection and attention early in a relationship — usually a manipulation tactic before things turn controlling or toxic.",
+        emoji: "💣",
+        example: "He texted all day, sent flowers, called every night — classic love bombing",
+        tags: ["relationship", "tiktok", "trending", "psychology"],
+        reverse: ["overwhelming with affection", "manipulation through love", "too much too fast"]
+    },
+    "slide into the DMs": {
+        definition: "To privately message someone on social media with romantic intent — sliding into their direct messages to shoot your shot.",
+        emoji: "📩",
+        example: "He slid into her DMs after she posted that photo",
+        tags: ["internet", "social media", "relationship", "common"],
+        reverse: ["DM someone romantically", "shoot your shot via DM", "private message with intent"]
+    },
+    "ride or die": {
+        definition: "Someone completely loyal who will stick with you no matter what — through everything, no questions asked.",
+        emoji: "🤝",
+        example: "She's been my ride or die since third grade",
+        tags: ["common", "internet", "friendship", "loyalty"],
+        reverse: ["unconditional loyalty", "day one", "always got your back", "loyal through everything"]
+    },
+    "thicc": {
+        definition: "Having a curvy, full-figured body — particularly a big butt and thighs. Generally used as a compliment.",
+        emoji: "🍑",
+        example: "That fit is giving, you're looking thicc",
+        tags: ["internet", "compliment", "appearance", "common"],
+        reverse: ["curvy", "full-figured", "voluptuous", "big butt and thighs"]
+    },
+    "hypebeast": {
+        definition: "Someone obsessed with hyped, limited-edition streetwear and sneakers — collecting brands like Supreme and Jordan purely for clout.",
+        emoji: "👟",
+        example: "He spent $400 on those sneakers just to flex. Total hypebeast",
+        tags: ["internet", "fashion", "clout", "common"],
+        reverse: ["streetwear obsessed", "sneakerhead for clout", "hype brand collector"]
+    },
+    "full send": {
+        definition: "Going all in with zero hesitation — committing completely to something regardless of consequences.",
+        emoji: "🚀",
+        example: "Quit his job and booked a one-way flight. Full send",
+        tags: ["internet", "tiktok", "trending", "lifestyle"],
+        reverse: ["go all in", "no hesitation", "no half measures", "commit fully"]
+    },
+    "shadow ban": {
+        definition: "When a platform secretly suppresses your content so fewer people see it — without telling you. You can still post, but your reach tanks invisibly.",
+        emoji: "👻",
+        example: "My views dropped to nothing overnight, I think I got shadow banned",
+        tags: ["social media", "tiktok", "instagram", "internet"],
+        reverse: ["hidden content suppression", "invisible ban", "secret account restriction"]
+    },
+    "wagwan": {
+        definition: "What's going on? A casual greeting from Jamaican Patois that spread through UK slang and TikTok.",
+        emoji: "👋",
+        example: "Wagwan, you good?",
+        tags: ["tiktok", "internet", "greeting", "common"],
+        reverse: ["what's going on", "what's up", "how are you"]
+    },
+    "copypasta": {
+        definition: "A block of text copied and pasted repeatedly as a meme — often intentionally absurd, long-winded, or taken out of context for humor.",
+        emoji: "📋",
+        example: "Someone replied with that Navy Seal copypasta and I actually fell for it",
+        tags: ["internet", "meme", "funny"],
+        reverse: ["repeated meme text", "viral text block", "copied and pasted joke"]
+    },
+    "beast mode": {
+        definition: "Operating at maximum intensity — fully locked in, pushing past limits, performing at an elite level with no breaks.",
+        emoji: "💪",
+        example: "Three hours in the gym, not a single break. He was in beast mode",
+        tags: ["common", "internet", "fitness", "compliment"],
+        reverse: ["maximum effort", "elite performance", "full intensity", "locked in and grinding"]
+    },
+    "abow": {
+        definition: "An exclamation of shock, disbelief, or hype — originally from Swedish/Arabic slang that went viral on TikTok. Like saying 'wow' or 'damn'.",
+        emoji: "😤",
+        example: "Abow, did you see that jump?",
+        tags: ["tiktok", "trending", "internet", "reaction"],
+        reverse: ["wow", "damn", "no way", "expression of shock or hype"]
+    },
+
 };
 
 // Trending slang terms for the chips
