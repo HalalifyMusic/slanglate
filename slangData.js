@@ -2617,6 +2617,105 @@ const slangDictionary = {
         reverse: ["that's just how it is", "nothing you can do", "sometimes life just be that way"]
     },
 
+    "cooking": {
+        definition: "Performing or creating something at a high level — when someone is on a roll and clearly doing something great, you say they're cooking.",
+        emoji: "👨‍🍳",
+        example: "He's been in the studio all week, let him cook",
+        tags: ["common", "tiktok", "compliment"],
+        reverse: ["doing great", "performing well", "on a roll", "creating something impressive"]
+    },
+    "twin": {
+        definition: "Someone who shares your exact taste, vibe, or energy — your cultural double. Used as a term of recognition and connection.",
+        emoji: "👯",
+        example: "You also cried at that scene? Twin behavior",
+        tags: ["tiktok", "internet", "compliment", "common"],
+        reverse: ["same vibe as me", "my cultural double", "we have the same taste"]
+    },
+    "girly pop": {
+        definition: "An affectionate, playful way to address a girl — casual, warm, and a bit dramatic. Used between friends or to hype someone up.",
+        emoji: "💗",
+        example: "Okay girly pop, you ate that presentation",
+        tags: ["tiktok", "instagram", "compliment", "common"],
+        reverse: ["girl", "bestie", "term of endearment for a girl"]
+    },
+    "on site": {
+        definition: "Ready to confront someone or show up immediately — no hesitation, no warning. Also used to mean someone is available right now.",
+        emoji: "🏃",
+        example: "Say that to my face and I'm on site",
+        tags: ["internet", "tiktok", "common"],
+        reverse: ["ready to confront", "showing up immediately", "I'll be there right now"]
+    },
+    "felt that": {
+        definition: "Deeply relating to something — not just understanding it, but feeling it in your soul. A step beyond 'same'.",
+        emoji: "🫀",
+        example: "She said she cries in the shower so nobody hears. I felt that",
+        tags: ["tiktok", "internet", "common", "validation"],
+        reverse: ["I relate to that deeply", "that hit me", "I feel that in my soul"]
+    },
+    "shawty": {
+        definition: "An attractive person, or an affectionate term for someone you like. Originally referred to a short or attractive woman, now used more broadly.",
+        emoji: "😍",
+        example: "He texted good morning? That shawty is into you",
+        tags: ["common", "internet", "compliment"],
+        reverse: ["attractive person", "babe", "term of endearment", "cutie"]
+    },
+    "I said what I said": {
+        definition: "Standing firmly behind a statement — not taking it back, not softening it, not apologizing. The conversation is closed.",
+        emoji: "🗣️",
+        example: "Pineapple belongs on pizza. I said what I said",
+        tags: ["tiktok", "internet", "common"],
+        reverse: ["I'm not taking it back", "I stand by that", "and I meant it", "not apologizing"]
+    },
+    "real ones": {
+        definition: "Truly loyal, genuine people — your real supporters, the ones who actually have your back. High praise.",
+        emoji: "🤞",
+        example: "Real ones know this song before it blew up",
+        tags: ["common", "internet", "compliment"],
+        reverse: ["real loyal people", "genuine supporters", "true fans", "the real ones know"]
+    },
+    "jit": {
+        definition: "A young person, usually a kid or teenager. Originally Florida slang, spread through TikTok. Can be affectionate or slightly condescending.",
+        emoji: "👦",
+        example: "Some little jit on TikTok taught me this trick",
+        tags: ["tiktok", "internet", "trending"],
+        reverse: ["young person", "kid", "teenager", "youngin"]
+    },
+    "side quest": {
+        definition: "An unplanned detour, random adventure, or task that takes you off your main path — treating life like a video game.",
+        emoji: "🗺️",
+        example: "We got lost and ended up at a farmers market. Full side quest",
+        tags: ["tiktok", "internet", "gaming", "trending"],
+        reverse: ["unplanned adventure", "random detour", "off-topic mission", "unexpected journey"]
+    },
+    "goes stupid": {
+        definition: "Something is so good it's almost absurd — an outfit, a song, a performance that hits way harder than expected.",
+        emoji: "🤯",
+        example: "This beat goes stupid, I've had it on repeat all day",
+        tags: ["tiktok", "music", "compliment", "trending"],
+        reverse: ["is incredibly good", "hits really hard", "goes crazy", "absolutely slaps"]
+    },
+    "respectfully": {
+        definition: "Added before or after a statement to soften a critique or strong opinion — though it often makes it sound more brutal, not less.",
+        emoji: "🙏",
+        example: "Respectfully, that haircut was a mistake",
+        tags: ["tiktok", "internet", "common"],
+        reverse: ["no offense but", "with all due respect", "I say this gently"]
+    },
+    "understood the room": {
+        definition: "Read the social energy correctly and adjusted accordingly — knowing exactly what the moment called for and delivering it.",
+        emoji: "🎯",
+        example: "She switched her speech on the spot and everyone laughed. She understood the room",
+        tags: ["tiktok", "trending", "compliment"],
+        reverse: ["read the room", "knew what the moment needed", "social awareness on point"]
+    },
+    "real for that": {
+        definition: "Expressing genuine respect or admiration for someone's actions — that move was solid, honest, or brave.",
+        emoji: "💯",
+        example: "He admitted he was wrong publicly. Real for that",
+        tags: ["tiktok", "internet", "compliment", "common"],
+        reverse: ["respect for that", "that was genuine", "good move", "props for that"]
+    },
+
 };
 
 // Trending slang terms for the chips
