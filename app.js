@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="slang-definition">${data.definition}</p>
                 <p class="slang-example">${data.example}</p>
                 <div class="card-tags">
-                    ${data.tags.map(tag => `<span class="card-tag">${tag}</span>`).join('')}
+                    ${data.tags.map(tag => `<span class="card-tag" data-tag="${tag}">${tag}</span>`).join('')}
                 </div>
             `;
             card.addEventListener('click', () => {
